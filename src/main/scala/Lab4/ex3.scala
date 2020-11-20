@@ -7,16 +7,16 @@ object TestEqual
 {
 	def main(args: Array[String])
 	{
-//		val x = Flip(0.4)
-//		val y = Flip(0.4)
-//		val z = x
-//		val w = x === z
-//		println(VariableElimination.probability(w, true))
+		val x1 = Flip(0.4)
+		val y1 = Flip(0.4)
+		val z1 = x1
+		val w1 = x1 === z1
+		println(VariableElimination.probability(w1, true))
 
-		 val x = Flip(0.4)
-		 val y = Flip(0.4)
-		 val z = y
-		 val w = x === z
-		 println(VariableElimination.probability(w, true))
+		 val x2 = Flip(0.4)
+		 val y2 = Flip(0.4)
+		 val z2 = y2
+		 val w2 = x2 === z2
+		 println(VariableElimination.probability(w2, true))
 	}
 }
